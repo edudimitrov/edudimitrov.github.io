@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Eduardo Dimitrov"
+  navbar:
+    left:
+      - href: projetos.qmd
+        text: Projetos
+      - href: publicacoes.qmd
+        text: Publicações
+      - href: blog.qmd
+        text: Blog
+execute:
+  freeze: auto
+format:
+  html:
+    theme: litera
+    css: styles.css
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
