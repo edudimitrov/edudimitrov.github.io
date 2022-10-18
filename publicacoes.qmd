@@ -1,16 +1,13 @@
 ---
-title: "Publicacoes"
+title: "Publicações"
 listing:
-  contents: papers/
-  sort-ui: false
-  filter-ui: false
-  categories: false
-  type: default
-page-layout: full
-toc: false
-search: false
-sidebar: false
+    id: publicacoes
+    type: grid
+    contents: publica.yml
+format:
+  html:
+    anchor-sections: false
 ---
 
-::: {#papers}
+::: {#publicacoes .column-body-outset-right}
 :::
