@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Eduardo Dimitrov - Publicacoes</title>
+<title>Eduardo Dimitrov - Publicações</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,7 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -63,20 +62,21 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-publicacoes .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
+      valueNames: ['listing-title','listing-author','listing-year','listing-doi-title','listing-filename',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-year","listing-doi-title","listing-filename"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-publicacoes'] = new List('listing-publicacoes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -130,16 +130,18 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publicacoes</h1>
+<h1 class="title">Publicações</h1>
 </div>
 
 
@@ -154,21 +156,1056 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div id="papers">
-
+<div id="listing-publicacoes" class="column-body-outset-right quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Regional como opção, regional como prisão: trajetórias artísticas no modernismo pernambucano
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Eduardo Dimitrov
+</div>
 </div>
 
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2013
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.11606/t.8.2014.tde-08052014-104648
+</td>
+</tr>
 
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/Regional como opção_ regional como prisão_ trajetórias artísticas no modernismo pernambucano.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Vicente do Rego Monteiro: de expoente modernista a integralista esquecido
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Eduardo Dimitrov
+</div>
+</div>
 
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2015
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.25091/s0101-330020150003001
+</td>
+</tr>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Vicente do Rego Monteiro: from Modernist Painter to Forgotten Integralist
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+E DIMITROV
+</div>
+</div>
 
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2015
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Da janela vê-se um Brasil: comentários a respeito de cinco exposições do Europalia 2011
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+MM Volpe;E Dimitrov
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2011
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/Da janela vê-se um Brasil_ comentários a respeito de cinco exposições do Europalia 2011.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A construção de Paulo Freire como inimigo nacional
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Rodolfo Godoi and Eduardo Dimitrov
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2022
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.9771/pcr.v15i1.47378
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nunca pintei um cangaceiro‖: negociações em torno da identidade regional na trajetória de Francisco Brennand
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+E Dimitrov
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2014
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cícero Dias eo regionalismo pernambucano
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Eduardo Dimitrov
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2018
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.1590/s0102-6992-201833030004
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A pitu do pintor Monteiro: cachaça e afetividade em João Cabral de Melo Neto
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+M Ayer;E Dimitrov
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2020
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/A pitu do pintor Monteiro_ cachaça e afetividade em João Cabral de Melo Neto.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Centro e periferia na produção e avaliação da obra de Gilvan Samico
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Eduardo Dimitrov
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2019
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.18764/2236-9473.v16n31p107-129
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/Centro e periferia na produção e avaliação da obra de Gilvan Samico.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A pitu do pintor Monteiro: Cachaça e afetividade em João Cabral de Melo Neto/Painter Monteiro’s “pitu”: Cachaça and Affectivity in João Cabral de Melo Neto
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Maur{'{}}cio Ayer and Eduardo Dimitrov
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2020
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.17851/2358-9787.29.2.94-115
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/A pitu do pintor Monteiro_ Cachaça e afetividade em João Cabral de Melo Neto_Painter Monteiro_s _pitu__ Cachaça and Affectivity in João Cabral de Melo Neto.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+LuLa Cardoso ayres: modernista em PernambuCo, foLCLóriCo em são PauLo
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Eduardo Dimitrov
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2018
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.1590/2238-38752017v826
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Antropologia em diálogo: a I Semana de Humanidades em Mossoró
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Eduardo Dimitrov and {'{I}}ris Morais Ara{'{u}}jo and Luis Felipe Kojima Hirano and Ma{'{}}ra Muhringer Volpe and Natacha Simei Leal and Samantha Gaspar
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2011
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.4000/pontourbe.1841
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Museus e coleções etnográficas: da história à política. Entrevista com Mariana Françozo
+</h5>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2014
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/Museus e coleções etnográficas_ da história à política. Entrevista com Mariana Françozo.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Entrevista com Dominique Poulot
+</h5>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2016
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>Epapers/ntrevista com Dominique Poulot.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+“A experiência do museu é a de se deslocar”: entrevista com Benoît de L’Estoile
+</h5>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2011
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/_A experiência do museu é a de se deslocar__ entrevista com Benoît de L_Estoile.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Genealogia e identidade familiares no teatro de Ariano Suassuna
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Eduardo Dimitrov
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2011
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.4000/artelogie.8676
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+O Brasil de Lima Barreto: transformações sócio culturais no início do século XX
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+LGV Sousa
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2019
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/O Brasil de Lima Barreto_ transformações sócio culturais no início do século XX.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="17">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+O trabalho de cuidados paliativos: uma sociohistória a partir de Cicely Saunders e Elisabeth Kübler-Ross
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+ÂM Miranda
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2020
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/O trabalho de cuidados paliativos_ uma sociohistória a partir de Cicely Saunders e Elisabeth Kübler-Ross.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Vida compartilhada: influencers e seu papel na reestruturação do capitalismo informacional
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+LTGL Almeida
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2019
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/Vida compartilhada_ influencers e seu papel na reestruturação do capitalismo informacional.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="19">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+O direito à cidade para o exercício da sexualidade de mulheres lésbicas: uma questão de direitos humanos
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+RCRJ Oliveira
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2020
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/O direito à cidade para o exercício da sexualidade de mulheres lésbicas_ uma questão de direitos humanos.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="20">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A imagem do caipira na obra de Monteiro Lobato
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+RA Santos Junior
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2019
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>Apapers/ imagem do caipira na obra de Monteiro Lobato.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="21">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ney Matogrosso: liberação sexual, performance artística e disputas simbólicas
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+RLC Godoi
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2018
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/Ney Matogrosso_ liberação sexual_ performance artística e disputas simbo_licas.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="22">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+As afinidades eletivas entre Walter Benjamin e Franz Kafka: investigações sobre o messianismo judaico, a tradição doente eo declínio da experiência
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Fl{'{a}}vio Borges Faria
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2022
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+10.5380/sclplr.v8i2.87016
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/As afinidades eletivas entre Walter Benjamin e Franz Kafka_ investigações sobre o messianismo judaico_ a tradição doente eo declínio da experiência.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="23">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Entrevista com Dominique Poulot
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+D Poulot
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2016
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>Epapers/ntrevista com Dominique Poulot.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="24">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+O inventário: um patrimônio em vias de desartificação?
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+N Heinich
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2014
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/O inventário_ um patrimônio em vias de desartificação_.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="25">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Roberto Piva: o poeta xamã: um devaneio poético-sociológico por um discípulo da contradição
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+IVS Rocha
+</div>
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+year
+</td>
+<td class="year">
+2018
+</td>
+</tr>
+<tr>
+<td>
+doi-title
+</td>
+<td class="doi-title">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+<div class="card-footer">
+<div class="card-filename listing-filename">
+<p>papers/Roberto Piva_ o poeta xamã_ um devaneio poético-sociológico por um discípulo da contradição.pdf</p>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+<nav id="publicacoes-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -189,13 +1226,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;

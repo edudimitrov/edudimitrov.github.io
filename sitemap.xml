@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://edudimitrov.github.io/csv2yaml.html</loc>
+    <lastmod>2022-10-19T00:00:42.311Z</lastmod>
+  </url>
+  <url>
     <loc>https://edudimitrov.github.io/publicacoes.html</loc>
-    <lastmod>2022-10-18T19:16:42.878Z</lastmod>
+    <lastmod>2022-10-19T00:00:42.879Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/posts/2022-10-17/index.html</loc>
-    <lastmod>2022-10-18T19:16:43.198Z</lastmod>
+    <lastmod>2022-10-19T00:00:43.181Z</lastmod>
+  </url>
+  <url>
+    <loc>https://edudimitrov.github.io/Untitled.html</loc>
+    <lastmod>2022-10-19T00:00:43.499Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/projetos.html</loc>
-    <lastmod>2022-10-18T19:16:43.493Z</lastmod>
+    <lastmod>2022-10-19T00:00:43.801Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/index.html</loc>
-    <lastmod>2022-10-18T19:16:43.815Z</lastmod>
+    <lastmod>2022-10-19T00:00:44.190Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/about.html</loc>
-    <lastmod>2022-10-18T19:16:44.125Z</lastmod>
+    <lastmod>2022-10-19T00:00:44.477Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/blog.html</loc>
-    <lastmod>2022-10-18T19:16:44.435Z</lastmod>
+    <lastmod>2022-10-19T00:00:44.817Z</lastmod>
   </url>
 </urlset>
