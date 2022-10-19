@@ -32,7 +32,7 @@ Atualmente é coordenado do Grupo de pesquisa Arte, Sociedade e Interpretações
 :::
 
 ## Educação
-
+<!-- 
 **State University of New York College of Environmental Science and Forestry**  
 Syracuse, NY
 
@@ -40,7 +40,7 @@ Ph.D. in Environmental Science | August 2020 - Present (Expected 2024)
 B.S. in Forest Ecosystem Science | August 2015 - December 2018
 
 
-<!-- ## Selected Projects
+## Selected Projects
 
 #### Publications
 
@@ -55,5 +55,5 @@ B.S. in Forest Ecosystem Science | August 2015 - December 2018
 **[unifir](https://github.com/mikemahoney218/unifir)** | A Unifying API for Working with Unity in R | 2022  
 **[terrainr](https://github.com/ropensci/terrainr)** | Retrieve Data from the USGS National Map and Transform it for 3D Landscape Visualizations | 2021  
 **[heddlr](https://github.com/mikemahoney218/heddlr)** | Functional Programming Concepts for R Markdown Documents | 2020
-
-:::  -->
+-->
+:::  
