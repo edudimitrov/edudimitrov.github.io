@@ -7,7 +7,7 @@ about:
   links:
     - text: Email
       url: "mailto:eduardodimitrov@unb.br"
-    - text: Blog
+    - text: Blogg
       url:  blog.qmd
     - text: Currículo Lattes
       url: "http://lattes.cnpq.br/4477727062911858"
