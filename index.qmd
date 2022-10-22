@@ -1,6 +1,6 @@
 ---
 title: "Arte, Sociedade, Interpretações do Brasil"
-subtitle: Cidade, Cultura e Sociedade
+subtitle: XXXXX
 image: eduardo_dimitrov.jpg
 about:
   template: trestles
