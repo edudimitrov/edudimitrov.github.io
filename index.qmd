@@ -16,7 +16,7 @@ comments: false
 ::: {.column-page} 
 
 <!-- ## Bio -->
-Professor Adjunto do Departamento de Sociologia da Universidade de Brasília (SOL/UnB), possui pós-doutoramento (2017) em Sociologia pelo Instituto de Estudos Brasileiros da Universidade de São Paulo (IEB/USP). Doutor (2014) e Mestre (2006) em Antropologia Social pela Universidade de São Paulo, graduado pela mesma instituição em Ciências Sociais (2003) e Licenciado em Sociologia (2006). Desenvolveu estágio doutoral na [École normale supérieurer (ENS/Paris)](https://www.ens.psl.eu/) no labex TransferS UMR 8547.
+ Adjunto do Departamento de Sociologia da Universidade de Brasília (SOL/UnB), possui pós-doutoramento (2017) em Sociologia pelo Instituto de Estudos Brasileiros da Universidade de São Paulo (IEB/USP). Doutor (2014) e Mestre (2006) em Antropologia Social pela Universidade de São Paulo, graduado pela mesma instituição em Ciências Sociais (2003) e Licenciado em Sociologia (2006). Desenvolveu estágio doutoral na [École normale supérieurer (ENS/Paris)](https://www.ens.psl.eu/) no labex TransferS UMR 8547.
 
 Atualmente é coordenado do Grupo de pesquisa Arte, Sociedade e Interpretações do Brasil (SOL-UNB). Ao estudar o modernismo pernambucano e as representações das elites locais, dedica-se à compreensão do processo de criação de identidades regionais e nacionais perpassando temas que interligam antropologia e sociologia da arte, literatura, história, patrimônio cultural e pensamento social brasileiro. Coordena o Grupo de Trabalho “Sociologia da sociologia nos contextos global e nacional”, na Sociedade Brasileira de Sociologia (SBS). Atua também na área de ensino de sociologia na educação básica e na formação docente.
 
