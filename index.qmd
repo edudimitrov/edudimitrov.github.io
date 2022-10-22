@@ -1,5 +1,5 @@
 ---
-title: "Eduardo Dimitrov"
+title: "Arte, Sociedade, Interpretações do Brasil"
 subtitle: Cidade, Cultura e Sociedade
 image: eduardo_dimitrov.jpg
 about:
