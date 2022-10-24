@@ -1,13 +1,13 @@
 ---
 title: "Arte, Sociedade, Interpretações do Brasil"
-subtitle: XXXXXxxxxx
+subtitle: qqqq
 image: eduardo_dimitrov.jpg
 about:
   template: trestles
   links:
     - text: Email
       url: "mailto:eduardodimitrov@unb.br"
-    - text: Blogg
+    - text: Blog
       url:  blog.qmd
     - text: Currículo Lattes
       url: "http://lattes.cnpq.br/4477727062911858"
