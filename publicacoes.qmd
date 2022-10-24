@@ -3,7 +3,7 @@ title: "Publicações"
 listing:
     id: publicacoes
     type: grid
-    contents: publica.yml
+    contents: publicacoes/
 format:
   html:
     anchor-sections: false
