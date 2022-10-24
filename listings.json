@@ -1,12 +1,12 @@
 [
   {
-    "listing": "/publicacoes.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/2022-10-17/index.html"
     ]
+  },
+  {
+    "listing": "/publicacoes.html",
+    "items": []
   }
 ]
