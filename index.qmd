@@ -1,59 +1,14 @@
 ---
-title: "Arte, Sociedade, Interpretações do Brasil"
-subtitle: qqqq
-image: eduardo_dimitrov.jpg
-about:
-  template: trestles
-  links:
-    - text: Email
-      url: "mailto:eduardodimitrov@unb.br"
-    - text: Blog
-      url:  blog.qmd
-    - text: Currículo Lattes
-      url: "http://lattes.cnpq.br/4477727062911858"
-comments: false
+pagetitle: "Arte, sociedade e Interpretações do Brasil"
+section-divs: false
+toc: false
+editor: source
+image: /images/hero_right.png
+
 ---
-::: {.column-page} 
-
-<!-- ## Bio -->
- Adjunto do Departamento de Sociologia da Universidade de Brasília (SOL/UnB), possui pós-doutoramento (2017) em Sociologia pelo Instituto de Estudos Brasileiros da Universidade de São Paulo (IEB/USP). Doutor (2014) e Mestre (2006) em Antropologia Social pela Universidade de São Paulo, graduado pela mesma instituição em Ciências Sociais (2003) e Licenciado em Sociologia (2006). Desenvolveu estágio doutoral na [École normale supérieurer (ENS/Paris)](https://www.ens.psl.eu/) no labex TransferS UMR 8547.
-
-Atualmente é coordenado do Grupo de pesquisa Arte, Sociedade e Interpretações do Brasil (SOL-UNB). Ao estudar o modernismo pernambucano e as representações das elites locais, dedica-se à compreensão do processo de criação de identidades regionais e nacionais perpassando temas que interligam antropologia e sociologia da arte, literatura, história, patrimônio cultural e pensamento social brasileiro. Coordena o Grupo de Trabalho “Sociologia da sociologia nos contextos global e nacional”, na Sociedade Brasileira de Sociologia (SBS). Atua também na área de ensino de sociologia na educação básica e na formação docente.
+![*Francisco Brennand. Detalhe do painel Batalha dos Guararapes, 1961-1962*. Foto Laércio Dias.](/images/brennand_batalha.jpg){fig-align="right"}
+---
+# Arte, sociedade e Interpretações do Brasil
 
 
-## Projetos
-
-::: {#projetos}
-:::
-
-## Artigos
-
-::: {#papers}
-:::
-
-## Educação
-<!-- 
-**State University of New York College of Environmental Science and Forestry**  
-Syracuse, NY
-
-Ph.D. in Environmental Science | August 2020 - Present (Expected 2024)  
-B.S. in Forest Ecosystem Science | August 2015 - December 2018
-
-
-## Selected Projects
-
-#### Publications
-
-**unifir: A Unifying API for Interacting with Unity from R.** Mahoney, MJ, Beier, CM, and Ackerman, AC. 2022. Journal of Open Source Software 7(73): 4388. [https://doi.org/10.21105/joss.04388](https://doi.org/10.21105/joss.04388)
-
-**terrainr: An R package for creating immersive virtual environments.** Mahoney, MJ, Beier, CM, and Ackerman, AC. 2022. Journal of Open Source Software, 7(69): 4060. [https://doi.org/10.21105/joss.04060](https://doi.org/10.21105/joss.04060)
-
-**Stem size selectivity is stronger than species preferences for beaver, a central place forager.**  Mahoney, M. J. and Stella, J. C. 2020. Forest Ecology and Management, 475, 118331. [https://doi.org/10.1016/j.foreco.2020.118331](https://doi.org/10.1016/j.foreco.2020.118331).
-
-#### R Packages
-
-**[unifir](https://github.com/mikemahoney218/unifir)** | A Unifying API for Working with Unity in R | 2022  
-**[terrainr](https://github.com/ropensci/terrainr)** | Retrieve Data from the USGS National Map and Transform it for 3D Landscape Visualizations | 2021  
-**[heddlr](https://github.com/mikemahoney218/heddlr)** | Functional Programming Concepts for R Markdown Documents | 2020
--->
-:::  
+  Cediado no Departamento de Sociologia da Universidade de Brasília e registrado no CNPq, o Grupo de Pesquisa Arte, Sociedade e Interpretações do Brasil pretende compreender os complexos vínculos entre política e cultura na produção artística e intelectual brasileira. Por meio da análise de obras e trajetórias, busca-se reconstruir formas de se pensar e representar o Brasil, suas regiões e grupos sociais específicos. As desigualdades no poder de produzir e fazer circular interpretações e representações também são foco das análises das pesquisas desenvolvidas. Nesse sentido, a forma como artistas, intelectuais e obras circulam pelas instituições nacionais, bem como a maneira pela qual esses atores inserem-se em campos específicos de produção cultural podem revelar desigualdades sociais e regionais na produção cultural brasileira. Desigualdades regionais, de gênero, classe e raça são elementos fundamentais para se compreender a produção cultural brasileira, seja no campo das artes plásticas, da literatura ou do pensamento social.

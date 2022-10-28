@@ -1,7 +1,7 @@
 ---
-title: Publicações
+title: Pessoas
 listing:
-  contents: publicacoes/
+  contents: pessoas
   type: grid
   sort: title
   categories: false
