@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2022-10-17/index.html"
+    ]
+  },
+  {
+    "listing": "/eventos.html",
+    "items": []
+  },
+  {
+    "listing": "/pessoas.html",
+    "items": []
+  },
+  {
+    "listing": "/publicacoes.html",
+    "items": [
+      "/publicacoes/livro/index.html"
+    ]
+  }
+]
