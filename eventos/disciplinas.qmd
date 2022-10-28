@@ -1,0 +1,8 @@
+---
+title: Disciplinas
+subtitle: Grupo de pesquisa
+image: /images/samico.png
+category: disciplinas
+abstract: |
+    Disciplinas ministradas na graduaçao e pós-graduação do Departamento de Sociologia da Unb
+---
