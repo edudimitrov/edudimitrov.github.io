@@ -21,11 +21,18 @@
     "text": "df = pd.read_csv('./papers/result.csv')\n\n\ndf.head(2)\n\n\n\n\n\n  \n    \n      \n      Name\n      Scholar Link\n      DOI\n      Bibtex\n      PDF Name\n      Year\n      Scholar page\n      Journal\n      Downloaded\n      Downloaded from\n      Authors\n    \n  \n  \n    \n      0\n      Regional como opção, regional como prisão: tra...\n      https://www.teses.usp.br/teses/disponiveis/8/8...\n      10.11606/t.8.2014.tde-08052014-104648\n      True\n      Regional como opção_ regional como prisão_ tra...\n      2013\n      https://scholar.google.com/scholar?hl=en&q=Edu...\n      Universidade de Sao Paulo, Agencia {USP} de Ge...\n      True\n      Scholar\n      Eduardo Dimitrov\n    \n    \n      1\n      Vicente do Rego Monteiro: de expoente modernis...\n      https://www.scielo.br/j/nec/a/D998ZRTnYqwhNGwX...\n      10.25091/s0101-3300201500030010\n      True\n      NaN\n      2015\n      https://scholar.google.com/scholar?hl=en&q=Edu...\n      Novos Estudos - {CEBRAP}\n      False\n      NaN\n      Eduardo Dimitrov\n    \n  \n\n\n\n\n\ndf.rename(columns={'PDF Name': 'filename', 'Name': 'title', 'Authors':'author',\n 'DOI':'doi-title', 'Year':'year'}, inplace=True)\n\n\ndf = df[[\"title\", \"author\", \"year\", \"doi-title\", \"filename\"]]\n\n\n# out = list(df.to_dict('records'))\n\n\n# yaml.dump([{idx:record} for idx, record in enumerate(out)])\n\n\nimport yaml\n\n\nwith open('publica.yml', 'w') as outfile:\n    yaml.dump(df.to_dict('records'), outfile,\n      indent = 4, default_flow_style=False, sort_keys=False)"
   },
   {
+    "objectID": "eventos/seminario_2022_2023.html",
+    "href": "eventos/seminario_2022_2023.html",
+    "title": "Seminários 2022-2023",
+    "section": "",
+    "text": "01/11/2022 – Gabriela Costa apresentará “A presença dos autores negros no mercado editorial: uma análise de 20 editoras”.\n08/11/2022 – Eliel dos Reis Almeida apresentará “Marajó: Dalcidio Jurandir e o regionalismo na amazonia”. Relatório PIBIC) e Lui Teixeira Oliveira apresentará “Gênero e raça na trajetória artística de Maria Auxiliadora da Silva” - relatório do PIBIC”.\n29/11/2022 – WILLIAMS, Raymond. Marxismo e literatura. Rio de Janeiro: Zahar, 1979 (Introdução; Do reflexo à mediação; Estrutura de sentimento)\n13/12/2022 – Evellyn apresentará “Representações Literárias e Estruturas de Sentimento: a cidade de Recife no século XX” e Rodolfo Godoi apresentará “Pesquisa de Mapeamento de Artistas Transformistas no Distrito Federal e Entorno”.\nRecesso Natal e Ano Novo\n10/01/2023 – ELIAS, Norbert. O processo civilizador. Rio de Janeiro: Jorge Zahar, 1994. 2(Volume 2 Parte 2 - 193 à 273)\n24/01/2023 – BOURDIEU, Pierre. As regras da arte: génese e estrutura do campo literário. Lisboa: Editorial Presença, 1996(Tomada de posições; Espaço dos possíveis)\n07/02/2023 – Rodrigo Macedo apresentará “O romance de formação brasileiro e a constituicao do campo intelectual”"
+  },
+  {
     "objectID": "eventos.html",
     "href": "eventos.html",
     "title": "Eventos",
     "section": "",
-    "text": "Nenhum item correspondente"
+    "text": "Disciplinas ministradas na graduaçao e pós-graduação do Departamento de Sociologia da Unb\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "index.html",
