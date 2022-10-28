@@ -2,34 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://edudimitrov.github.io/about.html</loc>
-    <lastmod>2022-10-24T20:15:07.190Z</lastmod>
+    <lastmod>2022-10-28T18:58:18.204Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/blog.html</loc>
-    <lastmod>2022-10-24T20:15:08.215Z</lastmod>
+    <lastmod>2022-10-28T18:58:18.839Z</lastmod>
+  </url>
+  <url>
+    <loc>https://edudimitrov.github.io/contato.html</loc>
+    <lastmod>2022-10-28T18:58:19.328Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/csv2yaml.html</loc>
-    <lastmod>2022-10-24T20:15:08.968Z</lastmod>
+    <lastmod>2022-10-28T18:58:19.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://edudimitrov.github.io/eventos.html</loc>
+    <lastmod>2022-10-28T18:58:20.407Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/index.html</loc>
-    <lastmod>2022-10-24T20:15:09.795Z</lastmod>
+    <lastmod>2022-10-28T18:58:20.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://edudimitrov.github.io/pessoas/eduardo/index.html</loc>
+    <lastmod>2022-10-28T18:58:21.513Z</lastmod>
+  </url>
+  <url>
+    <loc>https://edudimitrov.github.io/pessoas.html</loc>
+    <lastmod>2022-10-28T18:58:22.015Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/posts/2022-10-17/index.html</loc>
-    <lastmod>2022-10-24T20:15:10.405Z</lastmod>
+    <lastmod>2022-10-28T18:58:22.541Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/projetos.html</loc>
-    <lastmod>2022-10-24T20:15:11.055Z</lastmod>
+    <lastmod>2022-10-28T18:58:22.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://edudimitrov.github.io/publicacoes/livro/index.html</loc>
+    <lastmod>2022-10-28T18:58:23.435Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/publicacoes.html</loc>
-    <lastmod>2022-10-24T20:15:12.446Z</lastmod>
+    <lastmod>2022-10-28T18:58:23.910Z</lastmod>
   </url>
   <url>
     <loc>https://edudimitrov.github.io/Untitled.html</loc>
-    <lastmod>2022-10-24T20:15:14.140Z</lastmod>
+    <lastmod>2022-10-28T18:58:24.417Z</lastmod>
   </url>
 </urlset>

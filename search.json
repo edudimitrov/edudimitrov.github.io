@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
+    "section": "",
+    "text": "teste"
+  },
+  {
     "objectID": "csv2yaml.html",
     "href": "csv2yaml.html",
     "title": "Eduardo Dimitrov",
@@ -14,11 +21,25 @@
     "text": "df = pd.read_csv('./papers/result.csv')\n\n\ndf.head(2)\n\n\n\n\n\n  \n    \n      \n      Name\n      Scholar Link\n      DOI\n      Bibtex\n      PDF Name\n      Year\n      Scholar page\n      Journal\n      Downloaded\n      Downloaded from\n      Authors\n    \n  \n  \n    \n      0\n      Regional como opção, regional como prisão: tra...\n      https://www.teses.usp.br/teses/disponiveis/8/8...\n      10.11606/t.8.2014.tde-08052014-104648\n      True\n      Regional como opção_ regional como prisão_ tra...\n      2013\n      https://scholar.google.com/scholar?hl=en&q=Edu...\n      Universidade de Sao Paulo, Agencia {USP} de Ge...\n      True\n      Scholar\n      Eduardo Dimitrov\n    \n    \n      1\n      Vicente do Rego Monteiro: de expoente modernis...\n      https://www.scielo.br/j/nec/a/D998ZRTnYqwhNGwX...\n      10.25091/s0101-3300201500030010\n      True\n      NaN\n      2015\n      https://scholar.google.com/scholar?hl=en&q=Edu...\n      Novos Estudos - {CEBRAP}\n      False\n      NaN\n      Eduardo Dimitrov\n    \n  \n\n\n\n\n\ndf.rename(columns={'PDF Name': 'filename', 'Name': 'title', 'Authors':'author',\n 'DOI':'doi-title', 'Year':'year'}, inplace=True)\n\n\ndf = df[[\"title\", \"author\", \"year\", \"doi-title\", \"filename\"]]\n\n\n# out = list(df.to_dict('records'))\n\n\n# yaml.dump([{idx:record} for idx, record in enumerate(out)])\n\n\nimport yaml\n\n\nwith open('publica.yml', 'w') as outfile:\n    yaml.dump(df.to_dict('records'), outfile,\n      indent = 4, default_flow_style=False, sort_keys=False)"
   },
   {
+    "objectID": "eventos.html",
+    "href": "eventos.html",
+    "title": "Eventos",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Arte, Sociedade, Interpretações do Brasil",
+    "title": "Eduardo Dimitrov",
     "section": "",
-    "text": "Adjunto do Departamento de Sociologia da Universidade de Brasília (SOL/UnB), possui pós-doutoramento (2017) em Sociologia pelo Instituto de Estudos Brasileiros da Universidade de São Paulo (IEB/USP). Doutor (2014) e Mestre (2006) em Antropologia Social pela Universidade de São Paulo, graduado pela mesma instituição em Ciências Sociais (2003) e Licenciado em Sociologia (2006). Desenvolveu estágio doutoral na École normale supérieurer (ENS/Paris) no labex TransferS UMR 8547.\nAtualmente é coordenado do Grupo de pesquisa Arte, Sociedade e Interpretações do Brasil (SOL-UNB). Ao estudar o modernismo pernambucano e as representações das elites locais, dedica-se à compreensão do processo de criação de identidades regionais e nacionais perpassando temas que interligam antropologia e sociologia da arte, literatura, história, patrimônio cultural e pensamento social brasileiro. Coordena o Grupo de Trabalho “Sociologia da sociologia nos contextos global e nacional”, na Sociedade Brasileira de Sociologia (SBS). Atua também na área de ensino de sociologia na educação básica e na formação docente."
+    "text": "Arte, sociedade e Interpretações do Brasil\nCediado no Departamento de Sociologia da Universidade de Brasília e registrado no CNPq, o Grupo de Pesquisa Arte, Sociedade e Interpretações do Brasil pretende compreender os complexos vínculos entre política e cultura na produção artística e intelectual brasileira. Por meio da análise de obras e trajetórias, busca-se reconstruir formas de se pensar e representar o Brasil, suas regiões e grupos sociais específicos. As desigualdades no poder de produzir e fazer circular interpretações e representações também são foco das análises das pesquisas desenvolvidas. Nesse sentido, a forma como artistas, intelectuais e obras circulam pelas instituições nacionais, bem como a maneira pela qual esses atores inserem-se em campos específicos de produção cultural podem revelar desigualdades sociais e regionais na produção cultural brasileira. Desigualdades regionais, de gênero, classe e raça são elementos fundamentais para se compreender a produção cultural brasileira, seja no campo das artes plásticas, da literatura ou do pensamento social."
+  },
+  {
+    "objectID": "pessoas.html",
+    "href": "pessoas.html",
+    "title": "Pessoas",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "projetos.html",
@@ -32,7 +53,7 @@
     "href": "publicacoes.html",
     "title": "Publicações",
     "section": "",
-    "text": "Eduardo Dimitrov\n\n\n\n\n\n\nyear\n\n\n2013\n\n\n\n\ndoi-title\n\n\n10.11606/t.8.2014.tde-08052014-104648\n\n\n\n\n\n\n\npapers/Regional como opção_ regional como prisão_ trajetórias artísticas no modernismo pernambucano.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nEduardo Dimitrov\n\n\n\n\n\n\nyear\n\n\n2015\n\n\n\n\ndoi-title\n\n\n10.25091/s0101-330020150003001\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\nE DIMITROV\n\n\n\n\n\n\nyear\n\n\n2015\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\nMM Volpe;E Dimitrov\n\n\n\n\n\n\nyear\n\n\n2011\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/Da janela vê-se um Brasil_ comentários a respeito de cinco exposições do Europalia 2011.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nRodolfo Godoi and Eduardo Dimitrov\n\n\n\n\n\n\nyear\n\n\n2022\n\n\n\n\ndoi-title\n\n\n10.9771/pcr.v15i1.47378\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\nE Dimitrov\n\n\n\n\n\n\nyear\n\n\n2014\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\nEduardo Dimitrov\n\n\n\n\n\n\nyear\n\n\n2018\n\n\n\n\ndoi-title\n\n\n10.1590/s0102-6992-201833030004\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\nM Ayer;E Dimitrov\n\n\n\n\n\n\nyear\n\n\n2020\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/A pitu do pintor Monteiro_ cachaça e afetividade em João Cabral de Melo Neto.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nEduardo Dimitrov\n\n\n\n\n\n\nyear\n\n\n2019\n\n\n\n\ndoi-title\n\n\n10.18764/2236-9473.v16n31p107-129\n\n\n\n\n\n\n\npapers/Centro e periferia na produção e avaliação da obra de Gilvan Samico.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nMaur{'{}}cio Ayer and Eduardo Dimitrov\n\n\n\n\n\n\nyear\n\n\n2020\n\n\n\n\ndoi-title\n\n\n10.17851/2358-9787.29.2.94-115\n\n\n\n\n\n\n\npapers/A pitu do pintor Monteiro_ Cachaça e afetividade em João Cabral de Melo Neto_Painter Monteiro_s _pitu__ Cachaça and Affectivity in João Cabral de Melo Neto.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nEduardo Dimitrov\n\n\n\n\n\n\nyear\n\n\n2018\n\n\n\n\ndoi-title\n\n\n10.1590/2238-38752017v826\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\nEduardo Dimitrov and {'{I}}ris Morais Ara{'{u}}jo and Luis Felipe Kojima Hirano and Ma{'{}}ra Muhringer Volpe and Natacha Simei Leal and Samantha Gaspar\n\n\n\n\n\n\nyear\n\n\n2011\n\n\n\n\ndoi-title\n\n\n10.4000/pontourbe.1841\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nyear\n\n\n2014\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/Museus e coleções etnográficas_ da história à política. Entrevista com Mariana Françozo.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nyear\n\n\n2016\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\nEpapers/ntrevista com Dominique Poulot.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nyear\n\n\n2011\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/_A experiência do museu é a de se deslocar__ entrevista com Benoît de L_Estoile.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nEduardo Dimitrov\n\n\n\n\n\n\nyear\n\n\n2011\n\n\n\n\ndoi-title\n\n\n10.4000/artelogie.8676\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\nLGV Sousa\n\n\n\n\n\n\nyear\n\n\n2019\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/O Brasil de Lima Barreto_ transformações sócio culturais no início do século XX.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nÂM Miranda\n\n\n\n\n\n\nyear\n\n\n2020\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/O trabalho de cuidados paliativos_ uma sociohistória a partir de Cicely Saunders e Elisabeth Kübler-Ross.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nLTGL Almeida\n\n\n\n\n\n\nyear\n\n\n2019\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/Vida compartilhada_ influencers e seu papel na reestruturação do capitalismo informacional.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nRCRJ Oliveira\n\n\n\n\n\n\nyear\n\n\n2020\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/O direito à cidade para o exercício da sexualidade de mulheres lésbicas_ uma questão de direitos humanos.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nRA Santos Junior\n\n\n\n\n\n\nyear\n\n\n2019\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\nApapers/ imagem do caipira na obra de Monteiro Lobato.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nRLC Godoi\n\n\n\n\n\n\nyear\n\n\n2018\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/Ney Matogrosso_ liberação sexual_ performance artística e disputas simbo_licas.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nFl{'{a}}vio Borges Faria\n\n\n\n\n\n\nyear\n\n\n2022\n\n\n\n\ndoi-title\n\n\n10.5380/sclplr.v8i2.87016\n\n\n\n\n\n\n\npapers/As afinidades eletivas entre Walter Benjamin e Franz Kafka_ investigações sobre o messianismo judaico_ a tradição doente eo declínio da experiência.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nD Poulot\n\n\n\n\n\n\nyear\n\n\n2016\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\nEpapers/ntrevista com Dominique Poulot.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nN Heinich\n\n\n\n\n\n\nyear\n\n\n2014\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/O inventário_ um patrimônio em vias de desartificação_.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nIVS Rocha\n\n\n\n\n\n\nyear\n\n\n2018\n\n\n\n\ndoi-title\n\n\n\n\n\n\n\n\n\npapers/Roberto Piva_ o poeta xamã_ um devaneio poético-sociológico por um discípulo da contradição.pdf\n\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "Untitled.html",

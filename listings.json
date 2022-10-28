@@ -6,7 +6,19 @@
     ]
   },
   {
-    "listing": "/publicacoes.html",
+    "listing": "/eventos.html",
     "items": []
+  },
+  {
+    "listing": "/pessoas.html",
+    "items": [
+      "/pessoas/eduardo/index.html"
+    ]
+  },
+  {
+    "listing": "/publicacoes.html",
+    "items": [
+      "/publicacoes/livro/index.html"
+    ]
   }
 ]

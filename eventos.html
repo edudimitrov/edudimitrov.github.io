@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Arte, sociedade e Interpretações do Brasil</title>
+<title>Eduardo Dimitrov - Eventos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,12 +60,42 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -98,25 +130,40 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><img src="./images/brennand_batalha.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Francisco Brennand. Detalhe do painel Batalha dos Guararapes, 1961-1962</em>. Foto Laércio Dias.</figcaption><p></p>
-</figure>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Eventos</h1>
 </div>
-<hr>
-<h1 id="arte-sociedade-e-interpretações-do-brasil">Arte, sociedade e Interpretações do Brasil</h1>
-<p>Cediado no Departamento de Sociologia da Universidade de Brasília e registrado no CNPq, o Grupo de Pesquisa Arte, Sociedade e Interpretações do Brasil pretende compreender os complexos vínculos entre política e cultura na produção artística e intelectual brasileira. Por meio da análise de obras e trajetórias, busca-se reconstruir formas de se pensar e representar o Brasil, suas regiões e grupos sociais específicos. As desigualdades no poder de produzir e fazer circular interpretações e representações também são foco das análises das pesquisas desenvolvidas. Nesse sentido, a forma como artistas, intelectuais e obras circulam pelas instituições nacionais, bem como a maneira pela qual esses atores inserem-se em campos específicos de produção cultural podem revelar desigualdades sociais e regionais na produção cultural brasileira. Desigualdades regionais, de gênero, classe e raça são elementos fundamentais para se compreender a produção cultural brasileira, seja no campo das artes plásticas, da literatura ou do pensamento social.</p>
 
 
 
-</main> <!-- /main -->
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
